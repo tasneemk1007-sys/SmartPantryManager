@@ -1,0 +1,2 @@
+package com.example.smartpantrymanager; import android.os.Bundle;import android.widget.*;import androidx.appcompat.app.AppCompatActivity;
+public class SettingsActivity extends AppCompatActivity{public void onCreate(Bundle b){super.onCreate(b);setContentView(R.layout.activity_settings);setTitle("Settings");((Switch)findViewById(R.id.expiry_switch)).setChecked(getPreferences(0).getBoolean("expiry",true));((Switch)findViewById(R.id.expiry_switch)).setOnCheckedChangeListener((v,c)->getPreferences(0).edit().putBoolean("expiry",c).apply());}}

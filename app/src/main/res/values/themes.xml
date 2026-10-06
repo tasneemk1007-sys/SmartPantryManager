@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartPantryManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/pantry_accent</item>
+        <item name="android:navigationBarColor">@color/pantry_background</item>
+        <item name="android:statusBarColor">@color/pantry_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/pantry_background</item>
+        <item name="colorPrimary">@color/pantry_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/pantry_accent</item>
+    </style>
+
+    <style name="Theme.SmartPantryManager" parent="Base.Theme.SmartPantryManager" />
+</resources>
